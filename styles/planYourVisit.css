@@ -1,1 +1,29 @@
-//plan your visit css
+/* plan your visit css */
+h2, h3 {
+	font-family: Lobster, sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+.grid-item {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#googleMap > div{
+margin: auto;
+display: flex;
+justify-content: center;
+}
+
+#services{
+margin: auto;
+display: flex;
+justify-content: center;
+}
