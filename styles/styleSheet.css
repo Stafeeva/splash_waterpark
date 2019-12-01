@@ -10,6 +10,7 @@ body {
   max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
+  box-sizing: border-box;
 }
 
 h1 {
