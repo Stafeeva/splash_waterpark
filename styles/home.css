@@ -1,1 +1,19 @@
 //home css file
+h1 {
+    font-family: 'Lobster', cursive,'Arial', 'Helvetica', sans-serif;
+    font-weight: 100;
+    color: rgb(0,125,198);
+    text-align: left;
+}
+
+h2 {
+    font-family: font-family: 'Roboto', sans-serif, 'Arial', 'Helvetica';
+    font-weight: 100;
+    color: rgb(1,80,80);
+    background-color: rgb(188,244,244);
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(160,218,215);
+}
