@@ -7,53 +7,53 @@ footer {
 } */
 
 body {
-	max-width: 1200px;
-	margin-right: auto;
-	margin-left: auto;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 h1 {
-	font-family: 'Lobster', cursive,'Arial', 'Helvetica', sans-serif;
-	font-weight: 100;
-	color: rgb(0,125,198);
-	text-align: left;
+  font-family: 'Lobster', cursive,'Arial', 'Helvetica', sans-serif;
+  font-weight: 100;
+  color: rgb(0,125,198);
+  text-align: left;
 }
 
 h2, h3 {
-	font-family: 'Lobster', sans-serif, 'Arial', 'Helvetica';
-	font-weight: 100;
-	color: rgb(1,80,80);
-	background-color: rgb(188,244,244);
-	text-align: center;
-	padding: 10px;
+  font-family: 'Lobster', sans-serif, 'Arial', 'Helvetica';
+  font-weight: 100;
+  color: rgb(1,80,80);
+  background-color: rgb(188,244,244);
+  text-align: center;
+  padding: 10px;
 }
 
 h3 {
-	font-family: Lobster, sans-serif;
+  font-family: Lobster, sans-serif;
 }
 
 #attractionsTitle {
-	margin-left: 20px;
+  margin-left: 20px;
 }
 
 p {
-	font-family: Roboto, sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 #attractionsContainer {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .attractionBox {
-	margin: 20px;
-	justify-content: center;
-	max-width: 300px;
+  margin: 20px;
+  justify-content: center;
+  max-width: 300px;
 }
 
 .attractionImage {
-	border-radius: 6px;
-	width: 300px;
-	height: 200px;
+  border-radius: 6px;
+  width: 300px;
+  height: 200px;
 }
