@@ -1,1 +1,28 @@
-//Attraction css 
+h2, h3 {
+	font-family: Lobster, sans-serif;
+}
+
+#attractionsTitle {
+	margin-left: 20px;
+}
+
+p {
+	font-family: Roboto, sans-serif;
+}
+
+#attractionsContainer {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.attractionBox {
+	margin: 20px;
+	justify-content: center;
+	max-width: 300px;
+}
+
+.attractionImage {
+	border-radius: 6px;
+	width: 300px;
+	height: 200px;
+}

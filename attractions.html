@@ -8,10 +8,15 @@
     <meta name="author" content="Minal, Peter, Natalia, Ashfaq">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Waterpark,adventure,splash,attractions">
+    <link rel="stylesheet" type="text/css" href="styles/attractions.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap" rel="stylesheet">
     <title>Attractions</title>
   </head>
+  
   <!--- All the visible content -->
   <body>
+
+    <!--- Header -->
     <header>
       <img src="images/logo.png" width="60px" alt="Splash logo" />
       <h1>Splash Waterpark</h1>
@@ -21,81 +26,97 @@
         <a href="attractions.html">Attractions</a>
       </nav>
     </header>
+
+    <!--- Main content -->
     <main>
-      <h2>Attractions</h2>
-      <div>
-        <img
-          src="https://images.unsplash.com/photo-1526762100-0999d11d611c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=300"
-          alt="Water slides"
-        />
-        <h3>Water slides</h3>
-        <p>Exciting water slides for kids and adults!</p>
-      </div>
-      <div>
-        <img
-          src="https://images.unsplash.com/photo-1523631112603-45de7c0731fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300"
-          alt="Water sport activities"
-        />
-        <h3>Water Sport</h3>
-        <p>Basketball rings, water volleyball</p>
-      </div>
-      <div>
-        <img
-          src="https://images.unsplash.com/photo-1505236858219-8359eb29e329?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300"
-          alt="Pool party"
-        />
-        <h3>Events</h3>
-        <p>School trips, parties, birthdays, themed weeks</p>
-      </div>
-      <div>
-        <img
-          src="https://images.unsplash.com/photo-1562430539-1de3360fc50c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300"
-          alt="Pedal boats on a lake"
-        />
-        <h3>Pedal Boats</h3>
-        <p>Rent a pedal board!</p>
-      </div>
-      <div>
-        <img
-          src="https://images.unsplash.com/photo-1519766030446-ae88fde27309?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300"
-          alt="Aquarium"
-        />
-        <h3>Аquarium</h3>
-        <p>Visit our wonderful aquarium</p>
-      </div>
-      <div>
-        <img
-          src="https://images.unsplash.com/photo-1539810369004-76d6ad4d5190?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80"
-          alt="Wave pool by the ocean"
-        />
-        <h3>Wave Pool</h3>
-        <p>Learn to surf or just enjoy</p>
-      </div>
-      <div>
-        <img
-          src="https://images.unsplash.com/photo-1545115900-57cc7901467b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80"
-          alt="Scuba diver"
-        />
-        <h3>Scuba Diving School</h3>
-        <p>Group or individual lessons</p>
-      </div>
-      <div>
-        <img
-          src="https://images.unsplash.com/photo-1532926381893-7542290edf1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80"
-          alt="Spa"
-        />
-        <h3>Spa</h3>
-        <p>Saunas, steam rooms, ice baths</p>
-      </div>
-      <div>
-        <img
-          src="https://images.unsplash.com/photo-1455729552865-3658a5d39692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80"
-          alt="A surfer"
-        />
-        <h3>Surf School</h3>
-        <p>Group or individual lessons</p>
+      <h2 id="attractionsTitle">Attractions</h2>
+      <div id="attractionsContainer">
+        <div class="attractionBox">
+          <img
+            class="attractionImage"
+            src="https://images.unsplash.com/photo-1526762100-0999d11d611c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=fill&w=400&h=200q=80"
+            alt="Water slides"
+          />
+          <h3>Water slides</h3>
+          <p>Exciting water slides for kids and adults!</p>
+        </div>
+        <div class="attractionBox">
+          <img
+            class="attractionImage"
+            src="https://images.unsplash.com/photo-1523631112603-45de7c0731fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=200q=80"
+            alt="Water sport activities"
+          />
+          <h3>Water Sport</h3>
+          <p>Basketball rings, water volleyball</p>
+        </div>
+        <div class="attractionBox">
+          <img
+            class="attractionImage"
+            src="https://images.unsplash.com/photo-1505236858219-8359eb29e329?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=200q=80"
+            alt="Pool party"
+          />
+          <h3>Events</h3>
+          <p>School trips, parties, birthdays, themed weeks</p>
+        </div>
+        <div class="attractionBox">
+          <img
+            class="attractionImage"
+            src="https://images.unsplash.com/photo-1562430539-1de3360fc50c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=200q=80"
+            alt="Pedal boats on a lake"
+          />
+          <h3>Pedal Boats</h3>
+          <p>Rent a pedal board!</p>
+        </div>
+        <div class="attractionBox">
+          <img
+            class="attractionImage"
+            src="https://images.unsplash.com/photo-1519766030446-ae88fde27309?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=200q=80"
+            alt="Aquarium"
+          />
+          <h3>Аquarium</h3>
+          <p>Visit our wonderful aquarium</p>
+        </div>
+        <div class="attractionBox">
+          <img
+            class="attractionImage"
+            src="https://images.unsplash.com/photo-1539810369004-76d6ad4d5190?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=200q=80"
+            alt="Wave pool by the ocean"
+          />
+          <h3>Wave Pool</h3>
+          <p>Learn to surf or just enjoy</p>
+        </div>
+        <div class="attractionBox">
+          <img
+            class="attractionImage"
+            src="https://images.unsplash.com/photo-1545115900-57cc7901467b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=200q=80"
+            alt="Scuba diver"
+          />
+          <h3>Scuba Diving School</h3>
+          <p>Group or individual lessons</p>
+        </div>
+        <div class="attractionBox">
+          <img
+            class="attractionImage"
+            src="https://images.unsplash.com/photo-1532926381893-7542290edf1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=200q=80"
+            alt="Spa"
+          />
+          <h3>Spa</h3>
+          <p>Saunas, steam rooms, ice baths</p>
+        </div>
+        <div class="attractionBox">
+          <img
+            class="attractionImage"
+            src="https://images.unsplash.com/photo-1455729552865-3658a5d39692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=200q=80"
+            alt="A surfer"
+          />
+          <h3>Surf School</h3>
+          <p>Group or individual lessons</p>
+        </div>
       </div>
     </main>
+    <!-- End of main content -->
+
+    <!-- Footer -->
     <footer>
       <div>
         <h3>Contact Info</h3>
