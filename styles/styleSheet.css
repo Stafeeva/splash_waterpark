@@ -59,6 +59,10 @@ p {
   text-align: center;
 }
 
+ul {
+  font-family: Roboto, sans-serif;
+}
+
 #attractionsContainer {
   display: flex;
   flex-wrap: wrap;
