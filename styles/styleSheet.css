@@ -1,11 +1,21 @@
-/* header {
 
+
+header {
+  font-family:'Lobster', cursive,'Arial', 'Helvetica', sans-serif;
+  font-weight: 200;
+  text-align: center;
+  font-size: 150%;
+  background-image: url("header.jpg");
+  padding: 10px;
+  
 }
 
 footer {
-
-} */
-
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-right: auto;
+  margin-left: auto;
+  align-content: center;
+}
 body {
   max-width: 1200px;
   margin-right: auto;
@@ -23,8 +33,8 @@ h1 {
 h2, h3 {
   font-family: 'Lobster', sans-serif, 'Arial', 'Helvetica';
   font-weight: 100;
-  color: rgb(1,80,80);
-  background-color: rgb(188,244,244);
+  color: rgb(34, 35, 41);
+  background-color: rgb(195, 213, 236);
   text-align: center;
   padding: 10px;
 }
@@ -39,6 +49,7 @@ h3 {
 
 p {
   font-family: Roboto, sans-serif;
+  text-align: center;
 }
 
 #attractionsContainer {
@@ -90,4 +101,10 @@ p {
   margin: auto;
   display: flex;
   justify-content: center;
+}
+.icon {
+  padding: 10px;
+  align-items: center;
+  align-content: center;
+  text-align: center;
 }
