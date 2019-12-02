@@ -1,21 +1,28 @@
-
-
 header {
   font-family:'Lobster', cursive,'Arial', 'Helvetica', sans-serif;
   font-weight: 200;
   text-align: center;
   font-size: 150%;
-  background-image: url("header.jpg");
+  background-image: url("../images/header.jpg");
   padding: 10px;
-  
+}
+
+.headerTitle {
+  text-align: center;
+  margin: 10px;
+}
+
+.navItem {
+  margin: 30px 15px;
 }
 
 footer {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Roboto, sans-serif;
   margin-right: auto;
   margin-left: auto;
   align-content: center;
 }
+
 body {
   max-width: 1200px;
   margin-right: auto;
@@ -84,6 +91,7 @@ p {
   background-color: #f1f1f1;
   padding: 10px;
 }
+
 .grid-item {
   background-color: #f1f1f1;
   padding: 20px;
@@ -102,9 +110,13 @@ p {
   display: flex;
   justify-content: center;
 }
-.icon {
-  padding: 10px;
+
+.iconContainer {
   align-items: center;
   align-content: center;
   text-align: center;
+}
+
+.icon {
+  padding: 10px;
 }
