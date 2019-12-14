@@ -8,10 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Waterpark,adventure,splash,attractions">
     <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="styles/plan-your-visit.css">
     <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap" rel="stylesheet">
     <title>Plan your visit</title>
   </head>
-  <body>
+
+  <body style="background-image: url('https://www.whitewaterwest.com/wp-content/uploads/2019/11/RCI-CocoCay-Overview2-scaled.jpg'); background-repeat: no-repeat;"> 
     <!-- Header -->
     <header>
       <img src="images/logo.png" width="60px" alt="Splash logo" />
@@ -23,24 +25,49 @@
       </nav>
     </header>
     <!-- /Header -->
+
     <!-- Main Section -->
     <main>
       <h3>Pricing information</h3>
       <div class="grid-container"> 
         <div class="grid-item">
-          <h3>Special offers and packages</h3>
-          <p>This is where we are going to display all our prices</p>
+          <h3>Timetables</h3>
+          <p><strong>Summer and Winter dates</strong></p>
+          <div class="flex-container">
+              <img src="https://www.siampark.net/images/botones/horario.png" style="width: 80; margin: auto; padding: 15px;" alt="time table">
+                <p style="padding: 1px;">Summer (May 1st till October 31th): 10:00 to 18:00 
+                  <br>Winter (November 1th till April 30th): 10:00 to 17:00
+                  <br>* Schedules subject to change
+                </p>
+          </div>
         </div>
         <div class="grid-item">
-          <h3>Special offers and packages</h3>
-          <p>Special offers, booking information</p>
+          <h3>Services</h3>
+          <p><strong>Below are all the services we provide</strong> </p>
+          <div class="flex-container">
+              <ul id="services">
+                <li>ATMs</li>
+                <li>Medical help (for emergencies)</li>
+                <li>Lifeguards</li>
+                <li>Bicycle hire</li>
+                <li>Changing rooms and lockers</li>
+                <li>Transfers</li>
+              </ul>
+            </div>
         </div>
         <div class="grid-item">
-          <h3>Important information</h3>
-          <p>Working hours, how to contact us, restaurant information, parking information</p>
+          <h3>Where to eat</h3>
+          <p><strong>a snack or meal in our restaurants</strong></p>
+
+          <div class="flex-container">
+              <div class="where-to-eat"><img class="restaurant-images" src="https://www.siampark.net/images/restaurantes/TeaHousebarcreperie.png" style="margin-top: 8px;"> <p>offers a huge variety of the best teas, coffees and crepes.</p></div>
+              <!-- <div  class="where-to-eat"><img class="restaurant-images" src="https://www.siampark.net/images/restaurantes/SWEET-SIAM.png" style="margin-top: 8px;"> <p>Get attracted by the sweetest establishment at Siam Park. You will enjoy the best cakes and ice cream.</p></div>
+              <div  class="where-to-eat"><img class="restaurant-images" src="https://www.siampark.net/images/restaurantes/ThaiBar.png" style="margin-top: 45px;"> <p>A place to have a drink or celebrate a cocktail looking up to the stars on comfortable couches with a unique ambience and views of the Mai Thai River. Enjoy the best champaign, sangria or a cocktail.</p></div>   -->
+              <div  class="where-to-eat"><img class="restaurant-images" src="https://www.siampark.net/images/restaurantes/BeachClub.png" style="margin-top: 28px;"> <p>Located at the beach with a typical Thai architecture. Try the chicken and hamburger with French fries.</p></div>  
+              <div  class="where-to-eat"><img class="restaurant-images" src="https://www.siampark.net/images/restaurantes/BeachBar.png" style="margin-top: 28px;"> <p>Enjoy summer during the whole year at our bar with the best barbecues, cocktails and especially hot dogs and mojitos!</p></div>  
+            </div>
         </div>
       </div>
-
       <div id="googleMap">
         <div>
           <h2>How to find us</h2>
@@ -49,19 +76,28 @@
           <img
             src="images/Splash-Water-Park-Google-Maps.png"
             alt="Splash water park"
-            width=50%
+            style="border-radius: 10px; width: 65%; opacity: 0.9;"
           />
         </div>
       </div>
 
-      <div id="services">
-        <h3>Services</h3>
-        <ul>
-          <li>ATMs</li>
-          <li>Medical help (for emergencies)</li>
-          <li>Changing rooms and lockers</li>
-          <li>Transfers</li>
-        </ul>
+        <h3 style="margin-top: 250px;">Contact Form</h3>
+      <div class="containerForm">
+        <form>
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+          <div class="button-popup" onclick="myFunction()">
+            Submit
+            <span class="popuptext" id="myPopup">Thank you, your mail has been sent</span>
+          </div>
+        </form>
       </div>
     </main>
     <!-- /Main Section -->
@@ -103,5 +139,12 @@
       </div>
     </footer>
     <!-- /Footer -->
+    <script>
+      // When the user clicks on div, open the popup
+      function myFunction() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+      }
+      </script>
   </body>
 </html>
