@@ -1,0 +1,29 @@
+@keyframes titleAnimation {
+  0% {
+    background-color: white;
+    border: 1px dotted rgb(195, 213, 236);
+  }
+
+  50% {
+    background-color: rgb(195, 213, 236);
+  }
+
+  100% {
+    background-color: white;
+    border: 1px dotted rgb(195, 213, 236);
+  }
+}
+
+.attractionTitle {
+  animation-name: titleAnimation;
+  animation-duration: 4s;
+  animation-iteration-count: 10;
+  border-radius: 6px;
+}
+
+.attractionBox {
+  border: 1px dotted rgb(195, 213, 236);
+  border-radius: 6px;
+  padding: 20px;
+}
+
