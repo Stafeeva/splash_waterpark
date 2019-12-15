@@ -42,6 +42,37 @@
     animation: bouncing-text 10s linear infinite;
 }
 
+.textWrapRight{
+    text-emphasis-position: right;
+    text-justify: right;
+    float:right;
+    margin:10px;
+}
+
+.textWrapLeft{
+    text-justify: left;
+    float:left;
+    margin:10px;
+}
+
+#rotateXDiv {
+  opacity: 0.5;
+  transform: rotateX(130deg);
+}
+
+
+#rotateYDiv {
+opacity: 0.5;  
+position:relative;
+transform: rotateY(45deg);
+}
+
+#rotateZDiv {
+  opacity: 0.5;
+  position:relative;
+  transform: rotateZ(45deg);
+}
+
 @-moz-keyframes bouncing-text {
    0% {
         -moz-transform: translateX(50%);
@@ -72,3 +103,5 @@
         transform: translateX(-50%);
     }
 }
+
+
