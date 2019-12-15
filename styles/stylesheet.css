@@ -32,6 +32,11 @@ body {
   max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
+  background: url('https://www.whitewaterwest.com/wp-content/uploads/2019/11/RCI-CocoCay-Overview2-scaled.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 h1 {
@@ -89,6 +94,7 @@ ul, form {
   border-radius: 30px;
   padding: 20px;
   text-align: center;
+  margin: 20px;
 }
 
 #googleMap > div{
@@ -264,6 +270,7 @@ input[type=text], select, textarea {
   margin: 20px;
   justify-content: center;
   max-width: 300px;
+  background-color: white;
 }
 
 #attractionsContainer {
