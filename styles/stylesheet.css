@@ -7,7 +7,7 @@ html {
 }
 
 header {
-  font-family:'Lobster', cursive,'Arial', 'Helvetica', sans-serif;
+  font-family: "Lobster", cursive, "Arial", "Helvetica", sans-serif;
   font-weight: 200;
   text-align: center;
   font-size: 150%;
@@ -18,6 +18,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
+  letter-spacing: 1.2px;
 }
 
 .headerTitle {
@@ -46,7 +47,8 @@ body {
   max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
-  background: url('https://www.whitewaterwest.com/wp-content/uploads/2019/11/RCI-CocoCay-Overview2-scaled.jpg') no-repeat center center fixed; 
+  background: url("https://www.whitewaterwest.com/wp-content/uploads/2019/11/RCI-CocoCay-Overview2-scaled.jpg")
+    no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -54,21 +56,23 @@ body {
 }
 
 h1 {
-  font-family: 'Lobster', cursive,'Arial', 'Helvetica', sans-serif;
+  font-family: "Lobster", cursive, "Arial", "Helvetica", sans-serif;
   font-weight: 100;
-  color: rgb(0,125,198);
+  color: rgb(0, 125, 198);
   text-align: left;
-  border-radius: 15px;
+  border-radius: 10px;
+  letter-spacing: 1.2px;
 }
 
 h2, h3 {
-  font-family: 'Lobster', sans-serif, 'Arial', 'Helvetica';
+  font-family: "Lobster", sans-serif, "Arial", "Helvetica";
   font-weight: 100;
   color: rgb(34, 35, 41);
   background-color: rgb(195, 213, 236);
   text-align: center;
   padding: 10px;
-  border-radius: 15px;
+  border-radius: 10px;
+  letter-spacing: 1.2px;
 }
 
 h3 {
@@ -105,13 +109,13 @@ ul, form {
 .grid-item {
   background-color: #f1f1f1;
   opacity: 0.9;
-  border-radius: 30px;
+  border-radius: 10px;
   padding: 20px;
   text-align: center;
   margin: 20px;
 }
 
-#googleMap > div{
+#googleMap > div {
   margin: auto;
   display: flex;
   justify-content: center;
@@ -131,15 +135,14 @@ ul, form {
 
 .indexBanner {
   width: 700px;
-  box-shadow: 20px 20px 50px grey;  
+  box-shadow: 20px 20px 50px grey;
   margin: auto;
-  
 }
 
 .index-grid-item {
   background-color: #f1f1f1;
   opacity: 0.9;
-  border-radius: 30px;
+  border-radius: 10px;
   padding: 20px;
   text-align: center;
   justify-content: space-evenly;
@@ -155,7 +158,7 @@ ul, form {
 
 .bouncing-text {
   font-family: Roboto, sans-serif;
-  font-size: 20px;   
+  font-size: 20px;
   position: relative;
   justify-content: space-evenly;
   background-color: rgb(195, 213, 236);
@@ -181,7 +184,7 @@ ul, form {
   }
 }
 
-@-webkit-keyframes bouncing-text  {
+@-webkit-keyframes bouncing-text {
   0% {
     -webkit-transform: translateX(50%);
   }
@@ -189,24 +192,23 @@ ul, form {
     -webkit-transform: translateX(-50%);
   }
 }
-        
-@keyframes bouncing-text  {
+
+@keyframes bouncing-text {
   0% {
-       margin-left:-50%;
+    margin-left: -50%;
   }
- 50% {
-    margin-right:100%;
+  50% {
+    margin-right: 100%;
   }
   100% {
-    margin-left:0%;
-    }
+    margin-left: 0%;
+  }
 }
 
 /* Plan your visit */
 
 /* Services */
-#services > li
-{
+#services > li {
   padding: 8.5px;
   text-align: left;
 }
@@ -216,39 +218,38 @@ ul, form {
   display: flex;
   flex-direction: column;
   background-color: rgb(195, 213, 236);
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 .flex-container > div {
- 
   margin-left: 10px;
   margin-right: 10px;
 }
 
-.where-to-eat > p
-{
+.where-to-eat > p {
   text-align: left;
   margin-left: 120px;
 }
 
-.restaurant-images
-{
+.restaurant-images {
   float: left;
   width: 100px;
 }
 
 /* Contact us form */
 .containerForm {
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: rgb(195, 213, 236);
   padding: 20px;
 }
 
-input[type=text], select, textarea {
+input[type="text"],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 10px;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
@@ -268,17 +269,17 @@ input[type=text], select, textarea {
   color: white;
   padding: 12px 20px;
   border: none;
-  border-radius: 4px;
+  border-radius: 10px;
 }
 
 /* The actual popup */
 .popuptext {
   visibility: hidden;
   width: 160px;
-  background-color:  rgb(115, 168, 238);
+  background-color: rgb(115, 168, 238);
   color: #fff;
   text-align: center;
-  border-radius: 6px;
+  border-radius: 10px;
   padding: 8px 0;
   position: absolute;
   z-index: 1;
@@ -296,8 +297,8 @@ input[type=text], select, textarea {
   margin-left: -5px;
 }
 
-.button-popup .show
-{ visibility: visible;
+.button-popup .show {
+  visibility: visible;
   -moz-animation: cssAnimation 0s ease-in 2s forwards;
   /* Firefox */
   -webkit-animation: cssAnimation 0s ease-in 2s forwards;
@@ -309,22 +310,20 @@ input[type=text], select, textarea {
   animation-fill-mode: forwards;
 }
 
-@keyframes cssAnimation 
-{
-  to  {
-    width:0;
-    height:0;
-    overflow:hidden;
-      }
+@keyframes cssAnimation {
+  to {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+  }
 }
 
-@-webkit-keyframes cssAnimation 
-{
-  to  {
-    width:0;
-    height:0;
-    visibility:hidden;
-      }
+@-webkit-keyframes cssAnimation {
+  to {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+  }
 }
 
 /* Attractions */
@@ -349,12 +348,12 @@ input[type=text], select, textarea {
   animation-name: titleAnimation;
   animation-duration: 4s;
   animation-iteration-count: 10;
-  border-radius: 6px;
+  border-radius: 10px;
 }
 
 .attractionBox {
   border: 1px dotted rgb(195, 213, 236);
-  border-radius: 6px;
+  border-radius: 10px;
   padding: 20px;
   margin: 20px;
   justify-content: center;
@@ -369,12 +368,11 @@ input[type=text], select, textarea {
 }
 
 .attractionImage {
-  border-radius: 6px;
+  border-radius: 10px;
   width: 100%;
   height: 200px;
 }
 
-.indexAttractionImage{
-    justify-content: center;
-    
+.indexAttractionImage {
+  justify-content: center;
 }
