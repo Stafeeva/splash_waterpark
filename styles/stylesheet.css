@@ -2,23 +2,33 @@ html {
   box-sizing: border-box;
   position: relative;
   padding-bottom: 300px;
-  padding-top: 170px;
+  padding-top: 150px;
   min-height: 100%;
 }
 
 header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
   font-family: "Lobster", cursive, "Arial", "Helvetica", sans-serif;
   font-weight: 200;
-  text-align: center;
   font-size: 150%;
-  background-image: url("../images/header.jpg");
-  padding: 10px;
+  background: url("../images/header.jpg") no-repeat center center;
+  background-size: cover;
   width: 100%;
-  position: absolute;
+  position: fixed;
+  z-index: 2;
   top: 0;
   left: 0;
   right: 0;
   letter-spacing: 1.2px;
+  border-bottom: 1px solid rgb(172, 172, 172);
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
 }
 
 .headerTitle {
@@ -27,28 +37,43 @@ header {
 }
 
 .navItem {
-  margin: 30px 15px;
+  margin: 30px 30px 30px 5px;
+}
+
+.logoImage {
+  height: 40px;
+  width: 60px;
 }
 
 footer {
+  border-top: 1px solid rgb(172, 172, 172);
   font-family: Roboto, sans-serif;
   margin-right: auto;
   margin-left: auto;
-  align-content: center;
+  display: flex;
+  justify-content: center;
   width: 100%;
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
+  background: url("../images/header.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.footerBlock {
+  border-radius: 10px;
   background-color: white;
+  margin: 20px;
+  padding: 10px 30px;
+  border: 1px solid rgb(172, 172, 172);
 }
 
 body {
   max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
-  background: url("https://www.whitewaterwest.com/wp-content/uploads/2019/11/RCI-CocoCay-Overview2-scaled.jpg")
-    no-repeat center center fixed;
+  background: url("https://www.whitewaterwest.com/wp-content/uploads/2019/11/RCI-CocoCay-Overview2-scaled.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -352,13 +377,13 @@ textarea {
 }
 
 .attractionBox {
-  border: 1px dotted rgb(195, 213, 236);
   border-radius: 10px;
   padding: 20px;
   margin: 20px;
   justify-content: center;
   max-width: 300px;
   background-color: white;
+  border: 1px solid rgb(172, 172, 172);
 }
 
 #attractionsContainer {
