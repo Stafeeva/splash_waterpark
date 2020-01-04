@@ -381,17 +381,19 @@ textarea {
   }
 }
 
+/* Attractions page main title */
 #attractionsTitle {
   margin-left: 20px;
 }
 
-.attractionTitle {
-  animation-name: titleAnimation;
-  animation-duration: 4s;
-  animation-iteration-count: 10;
-  border-radius: 10px;
+/* Styling for attractions container */
+#attractionsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
+/* Styling for a box with a sinlge attraction */
 .attractionBox {
   border-radius: 10px;
   padding: 20px;
@@ -402,10 +404,12 @@ textarea {
   border: 1px solid rgb(195, 213, 236);
 }
 
-#attractionsContainer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+/* Styling for a sinle attraction title */
+.attractionTitle {
+  animation-name: titleAnimation;
+  animation-duration: 4s;
+  animation-iteration-count: 10;
+  border-radius: 10px;
 }
 
 .attractionImage {
