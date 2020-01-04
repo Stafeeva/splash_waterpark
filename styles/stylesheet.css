@@ -6,6 +6,18 @@ html {
   min-height: 100%;
 }
 
+body {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  background: url("https://www.whitewaterwest.com/wp-content/uploads/2019/11/RCI-CocoCay-Overview2-scaled.jpg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -69,17 +81,6 @@ footer {
   border: 1px solid rgb(195, 213, 236);
 }
 
-body {
-  max-width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
-  background: url("https://www.whitewaterwest.com/wp-content/uploads/2019/11/RCI-CocoCay-Overview2-scaled.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 h1 {
   font-family: "Lobster", cursive, "Arial", "Helvetica", sans-serif;
   font-weight: 100;
@@ -89,7 +90,8 @@ h1 {
   letter-spacing: 1.2px;
 }
 
-h2, h3 {
+h2,
+h3 {
   font-family: "Lobster", sans-serif, "Arial", "Helvetica";
   font-weight: 100;
   color: rgb(34, 35, 41);
@@ -113,7 +115,8 @@ p {
   text-align: center;
 }
 
-ul, form {
+ul,
+form {
   font-family: Roboto, sans-serif;
 }
 
@@ -404,4 +407,10 @@ textarea {
 
 .indexAttractionImage {
   justify-content: center;
+}
+
+.photoCredit {
+  opacity: 0.6;
+  margin: 0;
+  font-size: 12px;
 }
