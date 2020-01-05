@@ -1,5 +1,9 @@
 # Splash Waterpark
-
+## Home
+- link to Attraction page
+- Link to Plan your visit
+- Scoail media links(dummy)
+- Logo on top
 ## Attractions
 
 - Exciting water slides for kids and adults
