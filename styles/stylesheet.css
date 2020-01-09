@@ -155,6 +155,21 @@ form {
 
 /* Homepage */
 
+.indexTopSectionCover {
+  /* Image source: https://unsplash.com */
+  background: url("https://images.unsplash.com/photo-1503505946976-e489ce29e0fd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80") no-repeat center center;
+  background-size: cover;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.indexTopSectionDescription {
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px 0;
+}
+
 .indexBanner {
   width: 700px;
   box-shadow: 20px 20px 50px grey;
